@@ -1,11 +1,85 @@
 /* main.css */
 
-/******* LAYOUT *********/
+body {
+  display: flex;
+  flex-direction: column;
+}
 
+#title {
+  text-align: center;
+  padding: 20px 0;
+  display: fixed;
+}
 
+#navbar {
+  height: 200px;
+}
+
+#nav-ul {
+  height: 100%;
+  overflow-y: auto;
+  border-top: thin black;
+}
+
+.nav-li {
+  list-style: none;
+  border: solid thin;
+  height: 25px;
+  padding: 10px;
+}
+
+.nav-link {
+  font-size: .6em;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+#main-doc {
+  padding-top: 75px;
+}
+
+.main-section {
+  padding: 10px 40px;
+}
+
+header {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.main-section header {
+  padding-bottom: 10px;
+}
+
+p {
+  padding: 10px 0;
+}
+
+.main-section li {
+  padding: 10px 0;
+
+}
+
+code {
+  display: block;
+  background-color: #edf2f4;
+}
 
 @media screen and (min-width: 768px) {
 
+body {
+  flex-direction: row;
+}
+#header {
+  width: 30%;
+  height: 100%;
+}
+#navbar {
+  height: 100%;
+}
+main {
+  width: 80%;
+}
 
 }
 
