@@ -1,11 +1,120 @@
 /* main.css */
 
-/******* LAYOUT *********/
+body {
+  display: flex;
+  flex-direction: column;
+}
 
+#navbar {
+  height: 200px;
+}
 
+#title {
+  text-align: center;
+  padding: 20px 0;
+  display: fixed;
+}
+
+#nav-ul {
+  height: 200px;
+  overflow-y: auto;
+  border-top: solid;
+  border-bottom: solid;
+
+}
+
+.nav-li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border-bottom: solid thin;
+  height: 20px;
+  padding: 10px;
+}
+
+.nav-link {
+  font-size: .6em;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+#main-doc {
+  padding-top: 75px;
+}
+
+.main-section {
+  padding: 10px 40px;
+}
+
+.main-section header {
+  padding-bottom: 10px;
+}
+
+p {
+  padding: 10px 0;
+}
+
+.main-section li {
+  padding: 10px 0;
+}
+
+code {
+  display: block;
+  background-color: #edf2f4;
+}
+
+header {
+  font-size: 26px;
+  font-weight: bold;
+}
 
 @media screen and (min-width: 768px) {
 
+body {
+  flex-direction: row;
+  justify-content: flex-start;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+#header {
+  display: flex;
+  width: 300px;
+}
+
+#navbar {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+#title {
+  border-right: thin;
+  flex-grow: 0;
+}
+
+#nav-ul {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.nav-li {
+  padding: 12px 0px 12px 40px;
+}
+
+.nav-link {
+  padding: 0px 5px;
+  font-size: .7em;
+  border-right-style: solid;
+}
+
+#main-doc {
+  padding-top: 15px;
+  border-left-style: solid;
+  overflow-y: auto;
+}
 
 }
 
