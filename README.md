@@ -1,5 +1,7 @@
 # fcc_rwdp_technical_documentation_page
 
+COMPLETED PROJECT: https://jamesjim.github.io/fcc_rwdp_technical_documentation_page/ 
+
 Free Code Camp - Responsive Web Design Projects - Build A Technical Documentation Page
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/NdrKKL.
@@ -42,4 +44,4 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 Once you're done, submit the URL to your working project with all its tests passing.
 Remember to use the Read-Search-Ask method if you get stuck.
 
-COMPLETED PROJECT:  
+
