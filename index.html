@@ -5,7 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Technical Documentation Page</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css">
+
   <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
 </head>
 <body>
   <header id="header">
@@ -92,7 +102,7 @@
         To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
       </p>
       <pre>
-        <code>
+        <code class="javascript">
           function greetMe(yourName) {
             alert("Hello " + yourName);
           }
@@ -449,6 +459,5 @@
 
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shAutoloader.js"></script>
 
 </html>
